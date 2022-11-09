@@ -54,12 +54,14 @@ a {
   cursor: pointer;
 }
 
-*{
+* {
 	outline: none;
+	color: #373E44;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
-  background-color: #121212;
+  background-color: #FFFFFF;
 }
 
 img {
@@ -67,17 +69,20 @@ img {
   height: 300px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-a,
-textarea,
-pre,
-span,
-input,
-select {
-  color: rgb(241, 241, 241);
-  font-family: 'Inter', sans-serif;
+
+h1{
+	font-size: 32px;
+	font-weight: 600;
+}
+h2{
+	font-size: 24px;
+	font-weight: 600;
+}
+h3{
+	font-size: 20px;
+	font-weight: 600;
+}
+h4{
+	font-size: 18px;
+	font-weight: 600;
 }
