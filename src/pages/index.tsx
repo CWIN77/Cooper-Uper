@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export default function Home() {
   return (
     <Container>
-
+      <h1>sssssssss</h1>
     </Container>
   )
 }
