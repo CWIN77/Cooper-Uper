@@ -1,9 +1,9 @@
 import styled from 'styled-components'
-
+import Header from '../components/header'
 export default function Home() {
   return (
     <Container>
-      <h1>sssssssss</h1>
+      <Header />
     </Container>
   )
 }

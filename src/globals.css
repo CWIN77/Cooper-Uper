@@ -54,7 +54,7 @@ a {
 
 * {
 	outline: none;
-	color: #373E44;
+	color: #303438;
 }
 
 body {
@@ -66,9 +66,8 @@ img {
   height: 300px;
 }
 
-
 h1{
-	font-size: 32px;
+	font-size: 26px;
 	font-weight: 600;
 }
 h2{
