@@ -1,12 +1,13 @@
 import styled from 'styled-components'
-import ArrowLeft from "../svg/arrowLeft.svg"
+import arrowLeft from "../svg/arrowLeft.svg"
 import Icon from './icon';
 
 export default function Header() {
   return (
     <Container>
       <PartSection justify="start">
-        <Icon props={{ icons: ArrowLeft, size: 32, color: "white" }}></Icon>
+        <Icon props={{ icon: arrowLeft, size: 36, color: "white" }} />
+        <h1>Cooper Uper</h1>
       </PartSection>
       <PartSection justify="center">
         <ProjectName>New Project</ProjectName>
